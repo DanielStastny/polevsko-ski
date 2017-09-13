@@ -6,8 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/simplebox.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
+		
+		
 	</head>
 	<body>
 
@@ -25,6 +29,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Úvod</a></li>
+							<li><a href="#foto" class="active">Fotogalerie</a></li>
 						</ul>
 					</nav>
 
@@ -56,8 +61,33 @@
 								
 							</section>
 
+							<section id="foto" class="main special">
+								<header class="major">
+									<h2>Fotogalerie</h2>
+									<p>Lyžařský areál v závěru léta 2017. Započali jsme přípravné práce na zimu.</p>
+								</header>
+
+								<div class="box alt">
+									<div class="row uniform">
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_1.jpg" alt="Tesdt" /></span></div>
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_2.jpg" alt="" /></span></div>
+								<div class="4u$"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_3.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_4.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_5.jpg" alt="" /></span></div>
+								<div class="4u$"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_6.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_7.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_8.jpg" alt="" /></span></div>
+								<div class="4u$"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_9.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_10.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_11.jpg" alt="" /></span></div>
+								<div class="4u$"><span class="image fit"><img class="slb" src="images/aerial/Polevsko-aerial_12.jpg" alt="" /></span></div>
+									</div>
+								</div>
+								
+							</section>
+
 						<!-- First Section -->
-							<section id="first" class="main special">
+							<section id="second" class="main special">
 								<header class="major">
 									<h2>Naši sponzoři</h2>
 								</header>
@@ -103,6 +133,17 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+			<script type="text/javascript" src="assets/js/simplebox.js"></script>
+			
+					<script type="text/javascript">
+						// Plugin call
+						$('.slb').simplebox({
+						  fadeSpeed: 200,
+						  // UNCOMMENT THIS FOR DARK MODE
+						  // darkMode: true
+						});
+					  </script>
 
 			<script>
 					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
